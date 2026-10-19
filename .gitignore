@@ -1,0 +1,34 @@
+# Node.js dependencies
+node_modules/
+
+# Build output directories
+build/
+dist/
+
+uploads/
+
+# System-specific files (macOS/Windows)
+.DS_Store
+Thumbs.db
+
+# Environment files
+
+# Firebase service-account credentials
+firebaseServiceAccount.json
+
+# Log files
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+
+# npm package-lock.json (optional)
+package-lock.json
+
+# Temporary files
+*.tmp
+*.bak
+
+# Test coverage reports
+/coverage/

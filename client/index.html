@@ -1,0 +1,26 @@
+<!-- /client/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase OTP Authentication</title>
+  <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-auth.js"></script>
+</head>
+<body>
+  <h2>Firebase OTP Authentication</h2>
+
+  <div>
+    <input type="text" id="mobile" placeholder="Enter your mobile number">
+    <button onclick="sendOTP()">Send OTP</button>
+  </div>
+
+  <div>
+    <input type="text" id="otp" placeholder="Enter OTP">
+    <button onclick="verifyOTP()">Verify OTP</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
